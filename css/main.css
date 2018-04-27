@@ -1,0 +1,44 @@
+body {
+  background-color: pink;
+  box-sizing: border-box;
+}
+header {
+    background-color: #DD134D;
+}
+header > *{
+  display: inline-block;
+  text-align: center;
+  }
+  header > h1 {
+    width: 5%;
+  }
+  header > form {
+    width: 70%;
+  }
+  header > navbar {
+    width: 20%
+  }
+  img {
+    height: 90%;
+    width: 90%;
+    border-style: groove;
+    border-radius: 5%;
+  }
+  img:hover {
+    border-radius: 5%;
+    border-style: groove;
+    background-color: yellow;
+    opacity: 0.3;
+  }
+
+  .col {
+    float: left;
+    width: 30%;
+    margin: 1%;
+  }
+  .Titulo {
+   font-family: 'DancingScriptRegular';
+   font-weight: bold;
+   font-style: normal;
+   font-size: 30px;
+  }
